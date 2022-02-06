@@ -1,0 +1,22 @@
+/*contains common information*/
+@import url(https://morpho-ui-css-docs.netlify.app/global/global.css);
+
+* {
+  background-color: #101627;
+}
+
+.header__area {
+  padding: 2rem 0;
+}
+
+.main__area {
+  width: 50%;
+  margin: 3rem auto;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 412px) {
+  .main__area {
+    width: 100%;
+  }
+}
