@@ -1,0 +1,19 @@
+@import url(./global.css);
+
+.question__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.options__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+  margin: 1rem 0;
+}
+
+.option {
+  width: 100%;
+}
