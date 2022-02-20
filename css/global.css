@@ -1,12 +1,20 @@
 /*contains common information*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400&display=swap");
 @import url(https://morpho-ui-css-docs.netlify.app/global/global.css);
 
 * {
   box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  --padding: 2rem;
 }
 
-body {
-  background-color: #0e0f11;
+.body--section {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
 }
 
 .header__area {
@@ -14,13 +22,36 @@ body {
 }
 
 .main__area {
-  width: 50%;
+  width: 100%;
   margin: 3rem auto;
   gap: 2rem;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 412px) {
   .main__area {
     width: 90%;
+  }
+}
+
+.header__title {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+}
+
+.logo--img {
+  height: 40px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 550px) {
+  .logo--img {
+    height: 30px;
   }
 }
