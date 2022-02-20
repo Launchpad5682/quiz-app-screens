@@ -7,61 +7,97 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../css/question.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body>
-    <header
-      class="header__area h4__typography typography--white center__typography"
-    >
-      The Republic
+  <body class="body--section">
+    <header class="header header--dark">
+      <span class="logo">
+        <img src="../assets/logo.png" alt="" class="logo--img" />
+        <h6 class="h4__typography typography--white header__title">
+          Quiz Run
+        </h6></span
+      >
+      <nav class="">
+        <ul class="nav__list">
+          <button class="badge__icon badge__icon--blue">
+            <span class="fa fa-user" />
+          </button>
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg"
+          >
+            <span class="button__typography typography--white">Logout</span>
+          </button>
+        </ul>
+      </nav>
     </header>
+    <div class="h4__typography typography--white center__typography">
+      The Republic
+    </div>
     <main class="main__area">
-      <div class="question__header">
-        <span class="subtitle2__typography typography--white">Score: 0</span>
-        <span class="subtitle2__typography typography--white"
-          >Question 1/5</span
-        >
-      </div>
-      <p class="h5__typography typography--white">
-        What is Plato's aim in Republic
-      </p>
-      <div class="options__container">
-        <button
-          class="button--sm button__solid button--blue button__rounded--lg option"
-        >
-          <span
-            class="subtitle1__typography center__typography typography--white"
+      <div class="question__container">
+        <div class="question__header">
+          <span class="h5__typography typography--white">Score: 0</span>
+          <span class="h5__typography typography--white">Question 1/5</span>
+        </div>
+        <p class="h4__typography typography--white">
+          What is Plato's aim in Republic
+        </p>
+        <div class="options__container">
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg option"
           >
-            To define Justice
-          </span>
-        </button>
-        <button
-          class="button--sm button__solid button--red button__rounded--lg option"
-        >
-          <span
-            class="subtitle1__typography center__typography typography--white"
+            <span
+              class="h5__typography center__typography typography--white"
+            >
+              To define Justice
+            </span>
+          </button>
+          <button
+            class="button--sm button__solid button--red button__rounded--lg option"
           >
-            To prove that justice is worthwhile to pursue for its own sake
-          </span>
-        </button>
-        <button
-          class="button--sm button__solid button--blue button__rounded--lg option"
-        >
-          <span
-            class="subtitle1__typography center__typography typography--white"
+            <span
+              class="h5__typography center__typography typography--white"
+            >
+              To prove that justice is worthwhile to pursue for its own sake
+            </span>
+          </button>
+          <button
+            class="button--sm button__solid button--blue button__rounded--lg option"
           >
-            To Prove that justice is the advantage of the stronge?
-          </span>
-        </button>
-        <button
-          class="button--sm button__solid button--green button__rounded--lg option"
-        >
-          <span
-            class="subtitle1__typography center__typography typography--white"
+            <span
+              class="h5__typography center__typography typography--white"
+            >
+              To Prove that justice is the advantage of the stronge?
+            </span>
+          </button>
+          <button
+            class="button--sm button__solid button--green button__rounded--lg option"
           >
-            To define justice and to prove that it is worthwhile to pursue for
-            its own sake
-          </span>
-        </button>
+            <span
+              class="h5__typography center__typography typography--white"
+            >
+              To define justice and to prove that it is worthwhile to pursue for
+              its own sake
+            </span>
+          </button>
+        </div>
+        <div class="navigation__container h5__typography typography--white">
+          <div class="navigation__icon navigation__icon--white">
+            <span class="">
+              <span class="fa fa-chevron-left"></span>
+              Previous
+            </span>
+          </div>
+          <div class="navigation__icon navigation__icon--white">
+            <span class="">
+              Next
+              <span class="fa fa-chevron-right"></span>
+            </span>
+          </div>
+        </div>
       </div>
     </main>
     <script src="" async defer></script>
