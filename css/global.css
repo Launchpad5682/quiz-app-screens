@@ -22,8 +22,9 @@
 }
 
 .main__area {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: 3rem auto;
   gap: 2rem;
   overflow-y: auto;
 }

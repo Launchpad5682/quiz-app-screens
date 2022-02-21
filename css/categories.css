@@ -6,3 +6,9 @@
   gap: 1rem;
   justify-content: space-between;
 }
+
+.landing--img {
+  width: 50%;
+  height: 50rem;
+  align-self: center;
+}
